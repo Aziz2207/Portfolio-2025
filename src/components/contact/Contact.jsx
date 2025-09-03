@@ -10,7 +10,7 @@ export default function Contact() {
         <div className='mt-8'>
           <h3 className='text-xl font-medium text-white text-center'>Email</h3>
           <p className='text-center text-lg text-gray-300'>
-            <a href='mailto:aziz.hidri@polymtl.ca' className='hover:text-teal-400'>aziz.hidri@polymtl.ca</a>
+            <a href='mailto:aziz.hidri.2000@gmail.com' className='hover:text-teal-400'>aziz.hidri.2000@gmail.com</a>
           </p>
         </div>
 

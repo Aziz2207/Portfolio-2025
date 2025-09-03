@@ -1,13 +1,11 @@
 import React from 'react';
 import image from '../../assets/image.png';
 import image_2 from '../../assets/image_cnn.png'
-import image_3 from '../../assets/C++.png'
 
 export default function Projects() {
     const listProjects = [
-        {id:1, image:image, title:'Tactical RPG Platform', link:'https://github.com/Aziz2207/Tactical-RPG-Platform'},
-        {id:2, image:image_2, title:'Melanoma Image Classification', link: 'https://github.com/Aziz2207/Melanoma-Image-Classification'},
-        {id:3, image:image_3, title:'Chess Game in C++', link: 'https://github.com/Aziz2207/CPlusPlus-Chess-Game'},
+        {id:1, image:image, title:'Tactical RPG Platform', link:'https://github.com/Aziz2207/RPG-Platform'},
+        {id:2, image:image_2, title:'Melanoma Classification', link: 'https://github.com/Aziz2207/Melanoma-Image-Classification'},
     ];
 
     return (

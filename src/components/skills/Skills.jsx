@@ -13,25 +13,32 @@ export default function Skills() {
                 <div className='mb-6'>
                     <h2 className='text-xl font-semibold mb-2 text-teal-300'>Programming Languages</h2>
                     <p className='leading-relaxed text-base'>
-                        <strong>Proficient:</strong> C++, Python, JavaScript/TypeScript, HTML, CSS<br/>
-                        <strong>Familiar:</strong> Java, C, Assembly
-                        and SQL
+                        <strong>Proficient:</strong> C++, Python, JavaScript/TypeScript, PHP<br/>
+                        <strong>Familiar:</strong> Java, C, Assembly, SQL
                     </p>
                 </div>
 
                 <div className='mb-6'>
                     <h2 className='text-xl font-semibold mb-2 text-teal-300'>Mathematics</h2>
                     <p className='leading-relaxed text-base'>
-                    Discrete mathematics, Calculus, Probability and Statistics, Linear Algebra, Machine Learning (Regression,
+                    Calculus, Linear Algebra, Discrete mathematics, Probability and Statistics, Machine Learning (Regression,
                         Optimization, Regularization, Model Selection, Classification, Neural Networks)
+                    </p>
+                </div>
+
+                <div className='mb-6'>
+                    <h2 className='text-xl font-semibold mb-2 text-teal-300'>Artificial Intelligence</h2>
+                    <p className='leading-relaxed text-base'>
+                        Machine Learning (Regression, Classification, Optimization, Regularization, Model Selection),<br/>
+                        Neural Networks, Convolutional Neural Networks (CNN), TensorFlow, Scikit-learn
                     </p>
                 </div>
 
                 <div className='mb-6'>
                     <h2 className='text-xl font-semibold mb-2 text-teal-300'>Other Technical Skills</h2>
                     <p className='leading-relaxed text-base'>
-                    Data analysis, Source Control via Git, MVC Architecture, Agile development, Software Design, Operating
-                    Systems Kernels, Data Structures and Algorithms.
+                        Data Analysis, CI/CD, Agile Development, Software Design, Operating Systems Kernels,<br/>
+                        Data Structures and Algorithms, Computer Networks, Docker and Virtualization, Relational Databases (PostgreSQL, MySQL)
                     </p>
                 </div>
 

@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "courses": "Cours",
+    "blog": "Blog",
+    "contact": "Contactez-moi"
+  },
+  "hero": {
+    "title": "Salut ! Je suis Aziz",
+    "description": "Je suis étudiant en troisième année de Génie Logiciel à Polytechnique Montréal, avec une forte passion pour l’architecture logicielle, l’intelligence artificielle et les mathématiques. J’ai précédemment travaillé comme développeur web chez PolyOrbite, une société technique où j’ai contribué au site web de l’organisation. Plus récemment, j’ai effectué un stage en génie logiciel chez Poslik, une entreprise proposant des solutions de point de vente (POS) innovantes adaptées aux restaurants. Au cours de ce stage, j’ai développé un module de gestion d’inventaire en analysant les besoins fonctionnels, en concevant l’architecture technique et en implémentant des fonctionnalités clés telles que la saisie des quantités, la comparaison des stocks et les ajustements automatiques. En travaillant avec PHP, Symfony et PostgreSQL, j’ai contribué à améliorer la cohérence entre les inventaires physiques et numériques, tout en simplifiant les opérations des restaurants. Mon expérience reflète mon enthousiasme pour la création de solutions innovantes et à fort impact.",
+    "resume": "Télécharger mon CV"
+  },
+  "skills": {
+  "title": "Compétences",
+  "languages": "Langages de programmation",
+  "proficient": "Maîtrisé",
+  "familiar": "Familiarisé",
+  "math": "Mathématiques",
+  "math_desc": "Calcul, Algèbre linéaire, Mathématiques discrètes, Probabilités et Statistiques, Apprentissage automatique (Régression, Optimisation, Régularisation, Sélection de modèles, Classification, Réseaux de neurones).",
+  "ai": "Intelligence artificielle",
+  "ai_desc": "Apprentissage automatique (Régression, Classification, Optimisation, Régularisation, Sélection de modèles), Réseaux de neurones, Réseaux de neurones convolutionnels (CNN), TensorFlow, Scikit-learn.",
+  "other": "Autres compétences techniques",
+  "other_desc": "Analyse de données, CI/CD, Développement Agile, Conception logicielle, Noyaux de systèmes d'exploitation, Structures de données et Algorithmes, Réseaux informatiques, Docker et Virtualisation, Bases de données relationnelles (PostgreSQL)."
+  },
+  "projects": {
+  "title": "Mes Projets",
+  "tactical_title": "Plateforme RPG Tactique",
+  "tactical_stack": "Angular, TypeScript, NestJS, MongoDB",
+  "tactical_desc1": "Création d’une plateforme RPG tactique minimaliste avec un gameplay au tour par tour basé sur une grille, améliorant l’interactivité grâce à un frontend dynamique en Angular/TypeScript, l’implémentation des mécaniques en NestJS et l’intégration de la persistance avec MongoDB.",
+  "tactical_desc2": "Amélioration de l’expérience de jeu grâce à l’implémentation d’un éditeur de cartes, d’un système de chat et de fonctionnalités de journalisation, offrant des scénarios plus riches et une meilleure collaboration, via une conception modulaire et des tests automatisés avec Jasmine et Jest.",
+  
+  "melanoma_title": "Classification d’Images de Mélanomes",
+  "melanoma_stack": "Python, NumPy, TensorFlow, Matplotlib, Scikit-learn",
+  "melanoma_desc1": "Développement d’un pipeline d’apprentissage profond pour la détection de mélanomes, atteignant plus de 90% de précision sur les données de test, en concevant et entraînant un CNN avec TensorFlow/Keras, utilisant l’augmentation de données (rotations, zooms, symétries) pour améliorer la généralisation.",
+  "melanoma_desc2": "Production d’une évaluation détaillée avec matrices de confusion et métriques de classification, permettant une analyse précise du rappel et du F1-score, grâce à Matplotlib et Scikit-learn pour la visualisation et le reporting."
+  },
+  "contact": {
+  "title": "Contactez-moi",
+  "email": "Email",
+  "links": "Liens"
+  },
+  "techstack": {
+  "title": "Compétences Techniques"
+  },
+  "footer": {
+  "home": "Accueil",
+  "projects": "Projets",
+  "courses": "Cours",
+  "blog": "Blog"
+  }
+}

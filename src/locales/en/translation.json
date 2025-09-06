@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "courses": "Courses",
+    "blog": "Blog",
+    "contact": "Contact me"
+  },
+  "hero": {
+    "title": "Hi! I'm Aziz",
+    "description": "I am a third-year Software Engineering student at Polytechnique Montréal with a strong passion for system design, artificial intelligence, and mathematics. Previously, I was a web developer at PolyOrbite, a technical society where I contributed to the organization’s website. More recently, I completed a software engineering internship at Poslik, a company offering innovative point-of-sale (POS) solutions tailored for restaurants. During this internship, I developed an inventory management module by analyzing functional requirements, designing the technical architecture, and implementing core features such as quantity input, stock comparison, and automatic adjustments. Working with PHP, Symfony, and PostgreSQL, I contributed to improving the consistency between physical and digital inventories and streamlining restaurant operations. My experience reflects my enthusiasm for building innovative and impactful solutions.",
+    "resume": "Download my resume"
+  },
+  "skills": {
+  "title": "Skills",
+  "languages": "Programming Languages",
+  "proficient": "Proficient",
+  "familiar": "Familiar",
+  "math": "Mathematics",
+  "math_desc": "Calculus, Linear Algebra, Discrete Mathematics, Probability and Statistics, Machine Learning (Regression, Optimization, Regularization, Model Selection, Classification, Neural Networks).",
+  "ai": "Artificial Intelligence",
+  "ai_desc": "Machine Learning (Regression, Classification, Optimization, Regularization, Model Selection), Neural Networks, Convolutional Neural Networks (CNN), TensorFlow, Scikit-learn.",
+  "other": "Other Technical Skills",
+  "other_desc": "Data Analysis, CI/CD, Agile Development, Software Design, Operating Systems Kernels, Data Structures and Algorithms, Computer Networks, Docker and Virtualization, Relational Databases (PostgreSQL)."
+  },
+  "projects": {
+  "title": "My Projects",
+  "tactical_title": "Tactical RPG Platform",
+  "tactical_stack": "Angular, TypeScript, NestJS, MongoDB",
+  "tactical_desc1": "Built a minimalistic tactical RPG platform with grid-based, turn-based gameplay, improving interactivity by designing a dynamic frontend with Angular/TypeScript, implementing mechanics in NestJS, and integrating persistence with MongoDB.",
+  "tactical_desc2": "Enhanced gameplay experience by implementing a custom map editor, chat system, and logging functionality, resulting in richer user scenarios and improved collaborative play, through modular system design and automated client/server testing with Jasmine and Jest.",
+  
+  "melanoma_title": "Melanoma Image Classification",
+  "melanoma_stack": "Python, NumPy, TensorFlow, Matplotlib, Scikit-learn",
+  "melanoma_desc1": "Developed a deep learning pipeline for melanoma detection, achieving 90%+ accuracy on test data, by designing and training a CNN with TensorFlow/Keras, using data augmentation (flips, rotations, zooms) to improve generalization.",
+  "melanoma_desc2": "Delivered detailed model evaluation with confusion matrices and classification metrics, enabling precise analysis of recall and F1-score, by leveraging Matplotlib and Scikit-learn for performance visualization and reporting."
+  },
+  "contact": {
+  "title": "Contact Me",
+  "email": "Email",
+  "links": "Links"
+  },
+  "techstack": {
+  "title": "Tech Stack"
+  },
+  "footer": {
+  "home": "Home",
+  "projects": "Projects",
+  "courses": "Courses",
+  "blog": "Blog"
+  }
+}

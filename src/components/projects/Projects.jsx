@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import image from '../../assets/image.png';
-import image_2 from '../../assets/image_cnn.png';
+import image from '../../assets/skinAI.png';
+import image_2 from '../../assets/cloud_platform.png';
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -10,22 +10,22 @@ export default function Projects() {
     {
       id: 1,
       image: image,
-      title: t("projects.tactical_title"),
-      stack: t("projects.tactical_stack"),
+      title: t("projects.skin_title"),
+      stack: t("projects.skin_stack"),
       description: [
-        t("projects.tactical_desc1"),
-        t("projects.tactical_desc2")
+        t("projects.skin_desc1"),
+        t("projects.skin_desc2")
       ],
-      link: 'https://github.com/Aziz2207/RPG-Platform'
+      link: 'https://github.com/Aziz2207/SkinAI'
     },
     {
       id: 2,
       image: image_2,
-      title: t("projects.melanoma_title"),
-      stack: t("projects.melanoma_stack"),
+      title: t("projects.cloud_title"),
+      stack: t("projects.cloud_stack"),
       description: [
-        t("projects.melanoma_desc1"),
-        t("projects.melanoma_desc2")
+        t("projects.cloud_desc1"),
+        t("projects.cloud_desc2")
       ],
       link: 'https://github.com/Aziz2207/Melanoma-Image-Classification'
     }

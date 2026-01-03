@@ -19,8 +19,8 @@ export default function Skills() {
           <div className='mb-6'>
             <h2 className='text-xl font-semibold mb-2 text-teal-300'>{t("skills.languages")}</h2>
             <p className='leading-relaxed text-base'>
-              <strong>{t("skills.proficient")}:</strong> C++, Python, JavaScript/TypeScript, PHP, SQL<br/>
-              <strong>{t("skills.familiar")}:</strong> Java, R, Assembly
+              <strong>{t("skills.proficient")}:</strong> Python, JavaScript/TypeScript, PHP, PostgreSQL<br/>
+              <strong>{t("skills.familiar")}:</strong> C++, Java
             </p>
           </div>
 
@@ -28,13 +28,6 @@ export default function Skills() {
             <h2 className='text-xl font-semibold mb-2 text-teal-300'>{t("skills.math")}</h2>
             <p className='leading-relaxed text-base'>
               {t("skills.math_desc")}
-            </p>
-          </div>
-
-          <div className='mb-6'>
-            <h2 className='text-xl font-semibold mb-2 text-teal-300'>{t("skills.ai")}</h2>
-            <p className='leading-relaxed text-base'>
-              {t("skills.ai_desc")}
             </p>
           </div>
 

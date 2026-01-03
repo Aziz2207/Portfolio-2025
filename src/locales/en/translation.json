@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "Hi! I'm Aziz",
-    "description": "I am a third-year Software Engineering student at Polytechnique Montréal with a strong passion for system design, artificial intelligence, and mathematics. Previously, I was a web developer at PolyOrbite, a technical society where I contributed to the organization’s website. More recently, I completed a software engineering internship at Poslik, a company offering innovative point-of-sale (POS) solutions tailored for restaurants. During this internship, I developed an inventory management module by analyzing functional requirements, designing the technical architecture, and implementing core features such as quantity input, stock comparison, and automatic adjustments. Working with PHP, Symfony, and PostgreSQL, I contributed to improving the consistency between physical and digital inventories and streamlining restaurant operations. My experience reflects my enthusiasm for building innovative and impactful solutions.",
+    "description": "I am a fourth-year Software Engineering student at Polytechnique Montréal with a strong interest in cloud computing, artificial intelligence, and applied mathematics. I previously worked as a web developer at PolyOrbite, a technical society, where I contributed to the development and maintenance of the organization’s website. More recently, I completed a software engineering internship at Poslik, a company providing point-of-sale (POS) solutions for restaurants. During this internship, I contributed to the development of an inventory management module by analyzing functional requirements, designing the technical architecture, and implementing core features such as quantity tracking, stock comparison, and automated adjustments. Working with PHP, Symfony, and PostgreSQL, I helped improve consistency between physical and digital inventories and streamline operational workflows. I am particularly motivated by projects that combine system design, cloud infrastructure, and data-driven solutions, and I enjoy building scalable, well-structured software systems.",
     "resume": "Download my resume"
   },
   "skills": {
@@ -17,25 +17,23 @@
   "languages": "Programming Languages",
   "proficient": "Proficient",
   "familiar": "Familiar",
-  "math": "Mathematics",
-  "math_desc": "Calculus, Linear Algebra, Discrete Mathematics, Probability and Statistics, Machine Learning (Regression, Optimization, Regularization, Model Selection, Classification, Neural Networks).",
-  "ai": "Artificial Intelligence",
-  "ai_desc": "Machine Learning (Regression, Classification, Optimization, Regularization, Model Selection), Neural Networks, Convolutional Neural Networks (CNN), TensorFlow, Scikit-learn.",
+  "math": "Algorithms & Mathematics",
+  "math_desc": "BFS, DFS, Dijkstra, A*; Machine Learning and Natural Language Processing; Calculus, Linear Algebra, Probability and Statistics, Optimization.",
   "other": "Other Technical Skills",
-  "other_desc": "Data Analysis, CI/CD, Agile Development, Software Design, Operating Systems Kernels, Data Structures and Algorithms, Computer Networks, Docker and Virtualization, Relational Databases (PostgreSQL)."
+  "other_desc": "Data Analysis, CI/CD, Agile Development, Software Design, Operating Systems Kernels, Data Structures and Algorithms, Computer Networks, Docker and Virtualization, Databases (pgAdmin, Firebase, MongoDB), Linux development environment."
   },
   "projects": {
-  "title": "My Projects",
-  "tactical_title": "Tactical RPG Platform",
-  "tactical_stack": "Angular, TypeScript, NestJS, MongoDB",
-  "tactical_desc1": "Built a minimalistic tactical RPG platform with grid-based, turn-based gameplay, improving interactivity by designing a dynamic frontend with Angular/TypeScript, implementing mechanics in NestJS, and integrating persistence with MongoDB.",
-  "tactical_desc2": "Enhanced gameplay experience by implementing a custom map editor, chat system, and logging functionality, resulting in richer user scenarios and improved collaborative play, through modular system design and automated client/server testing with Jasmine and Jest.",
-  
-  "melanoma_title": "Melanoma Image Classification",
-  "melanoma_stack": "Python, NumPy, TensorFlow, Matplotlib, Scikit-learn",
-  "melanoma_desc1": "Developed a deep learning pipeline for melanoma detection, achieving 90%+ accuracy on test data, by designing and training a CNN with TensorFlow/Keras, using data augmentation (flips, rotations, zooms) to improve generalization.",
-  "melanoma_desc2": "Delivered detailed model evaluation with confusion matrices and classification metrics, enabling precise analysis of recall and F1-score, by leveraging Matplotlib and Scikit-learn for performance visualization and reporting."
-  },
+    "title": "My Projects",
+    "skin_title": "SkinAI (In Progress)",
+    "skin_stack": "React Native, TensorFlow, Scikit-learn",
+    "skin_desc1": "Developed a convolutional neural network for skin lesion risk classification, achieving strong validation performance and focusing on real-world image robustness (87% F1 accuracy).",
+    "skin_desc2": "Currently integrating the model into a mobile application with on-device inference, camera input, and user guidance, emphasizing privacy, usability, and ethical constraints (non-diagnostic use).",
+
+    "cloud_title": "Cloud-Native Microservices Platform (In Progress)",
+    "cloud_stack": "Go, Docker, Kubernetes, Grafana",
+    "cloud_desc1": "Designing a distributed blogging platform composed of independent services (Auth, Posts, Analytics) communicating via asynchronous events",
+    "cloud_desc2": "Implementing containerized services with API Gateway routing, message broker integration, and Kubernetes-based orchestration, focusing on scalability, observability, and fault tolerance."
+    },
   "contact": {
   "title": "Contact Me",
   "email": "Email",

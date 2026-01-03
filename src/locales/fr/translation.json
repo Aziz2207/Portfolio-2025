@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "Salut ! Je suis Aziz",
-    "description": "Je suis étudiant en troisième année de Génie Logiciel à Polytechnique Montréal, avec une forte passion pour l’architecture logicielle, l’intelligence artificielle et les mathématiques. J’ai précédemment travaillé comme développeur web chez PolyOrbite, une société technique où j’ai contribué au site web de l’organisation. Plus récemment, j’ai effectué un stage en génie logiciel chez Poslik, une entreprise proposant des solutions de point de vente (POS) innovantes adaptées aux restaurants. Au cours de ce stage, j’ai développé un module de gestion d’inventaire en analysant les besoins fonctionnels, en concevant l’architecture technique et en implémentant des fonctionnalités clés telles que la saisie des quantités, la comparaison des stocks et les ajustements automatiques. En travaillant avec PHP, Symfony et PostgreSQL, j’ai contribué à améliorer la cohérence entre les inventaires physiques et numériques, tout en simplifiant les opérations des restaurants. Mon expérience reflète mon enthousiasme pour la création de solutions innovantes et à fort impact.",
+    "description": "Je suis étudiant en quatrième année de génie logiciel à Polytechnique Montréal, avec un fort intérêt pour le cloud computing, l’intelligence artificielle et les mathématiques appliquées. J’ai auparavant travaillé comme développeur web au sein de PolyOrbite, une société technique, où j’ai contribué au développement et à la maintenance du site web de l’organisation. Plus récemment, j’ai effectué un stage en génie logiciel chez Poslik, une entreprise offrant des solutions de point de vente (POS) destinées au secteur de la restauration. Lors de ce stage, j’ai participé au développement d’un module de gestion d’inventaire en analysant les besoins fonctionnels, en concevant l’architecture technique et en implémentant des fonctionnalités clés telles que le suivi des quantités, la comparaison des stocks et les ajustements automatiques. En travaillant avec PHP, Symfony et PostgreSQL, j’ai contribué à améliorer la cohérence entre les inventaires physiques et numériques ainsi qu’à optimiser les processus opérationnels. Je suis particulièrement motivé par les projets qui combinent la conception de systèmes, les infrastructures cloud et les solutions orientées données, et j’apprécie la création de logiciels évolutifs, robustes et bien structurés.",
     "resume": "Télécharger mon CV"
   },
   "skills": {
@@ -17,24 +17,22 @@
   "languages": "Langages de programmation",
   "proficient": "Maîtrisé",
   "familiar": "Familiarisé",
-  "math": "Mathématiques",
-  "math_desc": "Calcul, Algèbre linéaire, Mathématiques discrètes, Probabilités et Statistiques, Apprentissage automatique (Régression, Optimisation, Régularisation, Sélection de modèles, Classification, Réseaux de neurones).",
-  "ai": "Intelligence artificielle",
-  "ai_desc": "Apprentissage automatique (Régression, Classification, Optimisation, Régularisation, Sélection de modèles), Réseaux de neurones, Réseaux de neurones convolutionnels (CNN), TensorFlow, Scikit-learn.",
+  "math": "Algorithmes & Mathématiques",
+  "math_desc": "BFS, DFS, Dijkstra, A* ; Apprentissage automatique et traitement du langage naturel ; Calcul différentiel et intégral, algèbre linéaire, probabilités et statistiques, optimisation.",
   "other": "Autres compétences techniques",
-  "other_desc": "Analyse de données, CI/CD, Développement Agile, Conception logicielle, Noyaux de systèmes d'exploitation, Structures de données et Algorithmes, Réseaux informatiques, Docker et Virtualisation, Bases de données relationnelles (PostgreSQL)."
+  "other_desc": "Analyse de données, CI/CD, développement agile, conception logicielle, noyaux de systèmes d’exploitation, structures de données et algorithmes, réseaux informatiques, Docker et virtualisation, bases de données (pgAdmin, Firebase, MongoDB), environnement de développement Linux."
   },
   "projects": {
-  "title": "Mes Projets",
-  "tactical_title": "Plateforme RPG Tactique",
-  "tactical_stack": "Angular, TypeScript, NestJS, MongoDB",
-  "tactical_desc1": "Création d’une plateforme RPG tactique minimaliste avec un gameplay au tour par tour basé sur une grille, améliorant l’interactivité grâce à un frontend dynamique en Angular/TypeScript, l’implémentation des mécaniques en NestJS et l’intégration de la persistance avec MongoDB.",
-  "tactical_desc2": "Amélioration de l’expérience de jeu grâce à l’implémentation d’un éditeur de cartes, d’un système de chat et de fonctionnalités de journalisation, offrant des scénarios plus riches et une meilleure collaboration, via une conception modulaire et des tests automatisés avec Jasmine et Jest.",
-  
-  "melanoma_title": "Classification d’Images de Mélanomes",
-  "melanoma_stack": "Python, NumPy, TensorFlow, Matplotlib, Scikit-learn",
-  "melanoma_desc1": "Développement d’un pipeline d’apprentissage profond pour la détection de mélanomes, atteignant plus de 90% de précision sur les données de test, en concevant et entraînant un CNN avec TensorFlow/Keras, utilisant l’augmentation de données (rotations, zooms, symétries) pour améliorer la généralisation.",
-  "melanoma_desc2": "Production d’une évaluation détaillée avec matrices de confusion et métriques de classification, permettant une analyse précise du rappel et du F1-score, grâce à Matplotlib et Scikit-learn pour la visualisation et le reporting."
+    "title": "Mes projets",
+    "skin_title": "SkinAI (En cours)",
+    "skin_stack": "React Native, TensorFlow, Scikit-learn",
+    "skin_desc1": "Développement d’un réseau de neurones convolutionnel pour la classification du risque des lésions cutanées, avec de bonnes performances en validation et un accent mis sur la robustesse face aux images du monde réel (87 % de score F1).",
+    "skin_desc2": "Intégration en cours du modèle dans une application mobile avec inférence embarquée (on-device), utilisation de la caméra et accompagnement utilisateur, en mettant l’accent sur la confidentialité, l’utilisabilité et les contraintes éthiques (usage non diagnostique).",
+
+    "cloud_title": "Plateforme Microservices Cloud-Native (En cours)",
+    "cloud_stack": "Go, Docker, Kubernetes, Grafana",
+    "cloud_desc1": "Conception d’une plateforme de blog distribuée composée de services indépendants (Auth, Posts, Analytics) communiquant via des événements asynchrones.",
+    "cloud_desc2": "Implémentation de services conteneurisés avec routage via API Gateway, intégration d’un broker de messages et orchestration avec Kubernetes, en mettant l’accent sur la scalabilité, l’observabilité et la tolérance aux pannes."
   },
   "contact": {
   "title": "Contactez-moi",

@@ -24,12 +24,18 @@
   },
   "projects": {
     "title": "My Projects",
-    "skin_title": "SkinAI (In Progress)",
-    "skin_stack": "React Native, TensorFlow, Scikit-learn",
-    "skin_desc1": "Developed a convolutional neural network for skin lesion risk classification, achieving strong validation performance and focusing on real-world image robustness (87% F1 accuracy).",
-    "skin_desc2": "Currently integrating the model into a mobile application with on-device inference, camera input, and user guidance, emphasizing privacy, usability, and ethical constraints (non-diagnostic use).",
+    "rpg_title": "Multiplayer RPG Platform",
+    "rpg_stack": "Electron, Angular, TypeScript, NestJS, MongoDB, AWS, Flutter, Dart, Firebase",
+    "rpg_desc1": "Developed a cross-platform multiplayer RPG platform with a desktop client (Electron) and a tablet mobile client connected to a shared backend",
+    "rpg_desc2": "Implemented real-time client–server features (chat notifications, channel management, member permissions) using a NestJS backend and scalable microservices architecture",
+    "rpg_desc3": "Led system design and architecture documentation (UML, system diagrams), contributed to CI/CD pipelines, and performed code reviews in an Agile team of 6",
 
-    "cloud_title": "Cloud-Native Microservices Platform (In Progress)",
+    "skin_title": "SkinAI",
+    "skin_stack": "React Native, TensorFlow, Scikit-learn, FastAPI",
+    "skin_desc1": "Developed a convolutional neural network for skin lesion risk classification, achieving strong validation performance and focusing on real-world image robustness (87% F1 accuracy).",
+    "skin_desc2": "Integrated the model into a mobile application with on-device inference, camera input, and user guidance, emphasizing privacy, usability, and ethical constraints (non-diagnostic use).",
+
+    "cloud_title": "Cloud-Native Microservices Platform",
     "cloud_stack": "Go, Docker, Kubernetes, Grafana",
     "cloud_desc1": "Designing a distributed blogging platform composed of independent services (Auth, Posts, Analytics) communicating via asynchronous events",
     "cloud_desc2": "Implementing containerized services with API Gateway routing, message broker integration, and Kubernetes-based orchestration, focusing on scalability, observability, and fault tolerance."

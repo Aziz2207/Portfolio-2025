@@ -24,12 +24,18 @@
   },
   "projects": {
     "title": "Mes projets",
-    "skin_title": "SkinAI (En cours)",
-    "skin_stack": "React Native, TensorFlow, Scikit-learn",
-    "skin_desc1": "Développement d’un réseau de neurones convolutionnel pour la classification du risque des lésions cutanées, avec de bonnes performances en validation et un accent mis sur la robustesse face aux images du monde réel (87 % de score F1).",
-    "skin_desc2": "Intégration en cours du modèle dans une application mobile avec inférence embarquée (on-device), utilisation de la caméra et accompagnement utilisateur, en mettant l’accent sur la confidentialité, l’utilisabilité et les contraintes éthiques (usage non diagnostique).",
+    "rpg_title": "Plateforme RPG multijoueur",
+    "rpg_stack": "Electron, Angular, TypeScript, NestJS, MongoDB, AWS, Flutter, Dart, Firebase",
+    "rpg_desc1": "Développement d’une plateforme RPG multijoueur multiplateforme comprenant un client desktop (Electron) et un client mobile tablette connectés à un backend commun",
+    "rpg_desc2": "Implémentation de fonctionnalités client–serveur en temps réel (notifications de clavardage, gestion des canaux, permissions des membres) à l’aide d’un backend NestJS et d’une architecture de microservices scalable",
+    "rpg_desc3": "Responsable de la conception du système et de la documentation d’architecture logicielle (UML, diagrammes système), contribution aux pipelines CI/CD et aux revues de code au sein d’une équipe Agile de 6 personnes",
 
-    "cloud_title": "Plateforme Microservices Cloud-Native (En cours)",
+    "skin_title": "SkinAI",
+    "skin_stack": "React Native, TensorFlow, Scikit-learn, FastAPI",
+    "skin_desc1": "Développement d’un réseau de neurones convolutionnel pour la classification du risque des lésions cutanées, avec de bonnes performances en validation et un accent mis sur la robustesse face aux images du monde réel (87 % de score F1).",
+    "skin_desc2": "Intégration du modèle dans une application mobile avec inférence embarquée (on-device), utilisation de la caméra et accompagnement utilisateur, en mettant l’accent sur la confidentialité, l’utilisabilité et les contraintes éthiques (usage non diagnostique).",
+
+    "cloud_title": "Plateforme Microservices Cloud-Native",
     "cloud_stack": "Go, Docker, Kubernetes, Grafana",
     "cloud_desc1": "Conception d’une plateforme de blog distribuée composée de services indépendants (Auth, Posts, Analytics) communiquant via des événements asynchrones.",
     "cloud_desc2": "Implémentation de services conteneurisés avec routage via API Gateway, intégration d’un broker de messages et orchestration avec Kubernetes, en mettant l’accent sur la scalabilité, l’observabilité et la tolérance aux pannes."

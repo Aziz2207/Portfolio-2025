@@ -2,13 +2,26 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import image from '../../assets/skinAI.png';
 import image_2 from '../../assets/cloud_platform.png';
+import image_3 from '../../assets/AgeofMythology.png';
 
 export default function Projects() {
   const { t } = useTranslation();
 
   const listProjects = [
     {
-      id: 1,
+      id: 1, 
+      image: image_3, 
+      title: t("projects.rpg_title"), 
+      stack: t("projects.rpg_stack"), 
+      description: [
+        t("projects.rpg_desc1"), 
+        t("projects.rpg_desc2"), 
+        t("projects.rpg_desc3")
+      ], 
+      link: 'https://github.com/Aziz2207/Tactical-RPG-Platform'
+    },
+    {
+      id: 2,
       image: image,
       title: t("projects.skin_title"),
       stack: t("projects.skin_stack"),
@@ -19,7 +32,7 @@ export default function Projects() {
       link: 'https://github.com/Aziz2207/SkinAI'
     },
     {
-      id: 2,
+      id: 3,
       image: image_2,
       title: t("projects.cloud_title"),
       stack: t("projects.cloud_stack"),

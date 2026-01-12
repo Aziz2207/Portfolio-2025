@@ -11,8 +11,6 @@ export default function Navbar() {
   const listNavbar = [
     { name: t("navbar.home"), link: "/" },
     { name: t("navbar.projects"), link: "/projects" },
-    { name: t("navbar.courses"), link: "/courses" },
-    { name: t("navbar.blog"), link: "/blog" },
   ];
 
   return (

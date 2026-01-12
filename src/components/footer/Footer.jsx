@@ -8,8 +8,6 @@ export default function Footer() {
   const listNavbar = [
     { name: t("footer.home"), link: '/' },
     { name: t("footer.projects"), link: '/projects' },
-    { name: t("footer.courses"), link: '/courses' },
-    { name: t("footer.blog"), link: '/blog' }
   ]
 
   return (

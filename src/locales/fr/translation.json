@@ -3,8 +3,6 @@
     "home": "Accueil",
     "skills": "Compétences",
     "projects": "Projets",
-    "courses": "Cours",
-    "blog": "Blog",
     "contact": "Contactez-moi"
   },
   "hero": {
@@ -33,12 +31,7 @@
     "skin_title": "SkinAI",
     "skin_stack": "React Native, TensorFlow, Scikit-learn, FastAPI",
     "skin_desc1": "Développement d’un réseau de neurones convolutionnel pour la classification du risque des lésions cutanées, avec de bonnes performances en validation et un accent mis sur la robustesse face aux images du monde réel (87 % de score F1).",
-    "skin_desc2": "Intégration du modèle dans une application mobile avec inférence embarquée (on-device), utilisation de la caméra et accompagnement utilisateur, en mettant l’accent sur la confidentialité, l’utilisabilité et les contraintes éthiques (usage non diagnostique).",
-
-    "cloud_title": "Plateforme Microservices Cloud-Native",
-    "cloud_stack": "Go, Docker, Kubernetes, Grafana",
-    "cloud_desc1": "Conception d’une plateforme de blog distribuée composée de services indépendants (Auth, Posts, Analytics) communiquant via des événements asynchrones.",
-    "cloud_desc2": "Implémentation de services conteneurisés avec routage via API Gateway, intégration d’un broker de messages et orchestration avec Kubernetes, en mettant l’accent sur la scalabilité, l’observabilité et la tolérance aux pannes."
+    "skin_desc2": "Intégration du modèle dans une application mobile avec inférence embarquée (on-device), utilisation de la caméra et accompagnement utilisateur, en mettant l’accent sur la confidentialité, l’utilisabilité et les contraintes éthiques (usage non diagnostique)."
   },
   "contact": {
   "title": "Contactez-moi",
@@ -50,8 +43,6 @@
   },
   "footer": {
   "home": "Accueil",
-  "projects": "Projets",
-  "courses": "Cours",
-  "blog": "Blog"
+  "projects": "Projets"
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import image from '../../assets/skinAI.png';
-import image_2 from '../../assets/cloud_platform.png';
 import image_3 from '../../assets/AgeofMythology.png';
 
 export default function Projects() {
@@ -31,17 +30,6 @@ export default function Projects() {
       ],
       link: 'https://github.com/Aziz2207/SkinAI'
     },
-    {
-      id: 3,
-      image: image_2,
-      title: t("projects.cloud_title"),
-      stack: t("projects.cloud_stack"),
-      description: [
-        t("projects.cloud_desc1"),
-        t("projects.cloud_desc2")
-      ],
-      link: 'https://github.com/Aziz2207/Melanoma-Image-Classification'
-    }
   ];
 
   return (

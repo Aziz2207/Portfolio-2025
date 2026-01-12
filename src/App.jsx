@@ -5,8 +5,6 @@ import 'aos/dist/aos.css'
 
 import Home from './pages/Home'
 import Projects from './pages/Projects'
-import Courses from './pages/Courses'
-import Blog from './pages/Blog'
 
 import Navbar from './components/navbar/Navbar'
 import Contact from './components/contact/Contact'
@@ -25,8 +23,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
 

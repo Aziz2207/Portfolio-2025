@@ -3,8 +3,6 @@
     "home": "Home",
     "skills": "Skills",
     "projects": "Projects",
-    "courses": "Courses",
-    "blog": "Blog",
     "contact": "Contact me"
   },
   "hero": {
@@ -33,12 +31,7 @@
     "skin_title": "SkinAI",
     "skin_stack": "React Native, TensorFlow, Scikit-learn, FastAPI",
     "skin_desc1": "Developed a convolutional neural network for skin lesion risk classification, achieving strong validation performance and focusing on real-world image robustness (87% F1 accuracy).",
-    "skin_desc2": "Integrated the model into a mobile application with on-device inference, camera input, and user guidance, emphasizing privacy, usability, and ethical constraints (non-diagnostic use).",
-
-    "cloud_title": "Cloud-Native Microservices Platform",
-    "cloud_stack": "Go, Docker, Kubernetes, Grafana",
-    "cloud_desc1": "Designing a distributed blogging platform composed of independent services (Auth, Posts, Analytics) communicating via asynchronous events",
-    "cloud_desc2": "Implementing containerized services with API Gateway routing, message broker integration, and Kubernetes-based orchestration, focusing on scalability, observability, and fault tolerance."
+    "skin_desc2": "Integrated the model into a mobile application with on-device inference, camera input, and user guidance, emphasizing privacy, usability, and ethical constraints (non-diagnostic use)."
     },
   "contact": {
   "title": "Contact Me",
@@ -50,8 +43,6 @@
   },
   "footer": {
   "home": "Home",
-  "projects": "Projects",
-  "courses": "Courses",
-  "blog": "Blog"
+  "projects": "Projects"
   }
 }

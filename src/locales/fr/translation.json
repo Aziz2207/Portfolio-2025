@@ -21,17 +21,41 @@
   "other_desc": "Analyse de données, CI/CD, développement agile, conception logicielle, noyaux de systèmes d’exploitation, structures de données et algorithmes, réseaux informatiques, Docker et virtualisation, bases de données (pgAdmin, Firebase, MongoDB), environnement de développement Linux."
   },
   "projects": {
-    "title": "Mes projets",
-    "rpg_title": "Plateforme RPG multijoueur",
-    "rpg_stack": "Electron, Angular, TypeScript, NestJS, MongoDB, AWS, Flutter, Dart, Firebase",
-    "rpg_desc1": "Développement d’une plateforme RPG multijoueur multiplateforme comprenant un client desktop (Electron) et un client mobile tablette connectés à un backend commun",
-    "rpg_desc2": "Implémentation de fonctionnalités client–serveur en temps réel (notifications de clavardage, gestion des canaux, permissions des membres) à l’aide d’un backend NestJS et d’une architecture de microservices scalable",
-    "rpg_desc3": "Responsable de la conception du système et de la documentation d’architecture logicielle (UML, diagrammes système), contribution aux pipelines CI/CD et aux revues de code au sein d’une équipe Agile de 6 personnes",
+  "title": "Mes projets",
+  "filter_all": "Tous",
+  "filter_ai": "Intelligence Artificielle",
+  "filter_se": "Génie Logiciel",
 
-    "skin_title": "SkinAI",
-    "skin_stack": "React Native, TensorFlow, Scikit-learn, FastAPI",
-    "skin_desc1": "Développement d’un réseau de neurones convolutionnel pour la classification du risque des lésions cutanées, avec de bonnes performances en validation et un accent mis sur la robustesse face aux images du monde réel (87 % de score F1).",
-    "skin_desc2": "Intégration du modèle dans une application mobile avec inférence embarquée (on-device), utilisation de la caméra et accompagnement utilisateur, en mettant l’accent sur la confidentialité, l’utilisabilité et les contraintes éthiques (usage non diagnostique)."
+  "rpg_title": "Plateforme RPG multijoueur",
+  "rpg_stack": "Electron, Angular, TypeScript, NestJS, MongoDB, AWS, Flutter, Dart, Firebase",
+  "rpg_desc1": "Développement d'une plateforme RPG multijoueur multiplateforme comprenant un client desktop (Electron) et un client mobile tablette connectés à un backend commun.",
+  "rpg_desc2": "Implémentation de fonctionnalités client–serveur en temps réel (notifications de clavardage, gestion des canaux, permissions des membres) à l'aide d'un backend NestJS et d'une architecture de microservices scalable.",
+  "rpg_desc3": "Responsable de la conception du système et de la documentation d'architecture logicielle (UML, diagrammes système), contribution aux pipelines CI/CD et aux revues de code au sein d'une équipe Agile de 6 personnes.",
+
+  "melanoma_title": "Modèle de classification d'images de mélanome",
+  "melanoma_stack": "Python, TensorFlow, Keras, NumPy, scikit-learn",
+  "melanoma_desc1": "Entraînement d'un CNN personnalisé sur 9 605 images dermoscopiques pour classifier les lésions cutanées en bénignes ou malignes, atteignant un ROC-AUC de 0,924 et un F1-score de 0,865 sur l'ensemble de test.",
+  "melanoma_desc2": "Atténuation du déséquilibre de classes via des poids calculés et une optimisation du seuil de décision (0,43 vs 0,50 par défaut) pour maximiser le rappel, en priorisant la sensibilité à la détection maligne.",
+
+  "ecoli_title": "Prédiction de la résistance aux antimicrobiens chez E. coli",
+  "ecoli_stack": "Python, scikit-learn, XGBoost, LightGBM, Optuna",
+  "ecoli_desc1": "Comparaison de 7 modèles ML sur des données génomiques creuses à 1M de caractéristiques pour la prédiction de résistance aux antibiotiques chez E. coli, atteignant un F1 public de 0,808 avec le pipeline ExtraTrees final ; résultats publiés au format conférence ICLR 2026.",
+  "ecoli_desc2": "Conception d'un pipeline de validation croisée stratifiée en 10 plis avec prétraitement intégré par pli (sélection Chi², SMOTE, seuillage de variance) pour éviter la fuite de données ; hyperparamètres optimisés conjointement via Optuna (optimisation bayésienne).",
+
+  "bert_title": "BERT pour la reconnaissance d'entités médicales (ADE)",
+  "bert_stack": "Python, PyTorch, Hugging Face Transformers, NLP",
+  "bert_desc1": "Implémentation de BERT from scratch en PyTorch (109M paramètres) pour le balisage BIO au niveau des tokens, atteignant 93,6 % de précision token et F1(ADE) ≈ 0,55 sur un corpus médical de 6 821 phrases.",
+  "bert_desc2": "Comparaison du BERT personnalisé avec BERT-base fine-tuné (F1 ≈ 0,87), analyse de l'écart de performance sous l'angle du transfert d'apprentissage et du déséquilibre de classes (~86 % de tokens hors entité).",
+
+  "gpt2_title": "GPT-2 from Scratch pour la traduction automatique",
+  "gpt2_stack": "Python, PyTorch, Transformers, Grands modèles de langage",
+  "gpt2_desc1": "Implémentation d'un Transformer GPT-2 decoder-only from scratch en PyTorch (124M paramètres) avec transfert complet des poids depuis les checkpoints OpenAI, atteignant un score de compatibilité d'architecture de 90/100 par rapport à la référence HuggingFace.",
+  "gpt2_desc2": "Fine-tuning sur 8 629 paires de phrases anglais–français avec masked prompt loss et planification cosinus du taux d'apprentissage, atteignant un BLEU-1 de 52,76 et un SacreBLEU de 25,1 après 30 époques.",
+
+  "rag_title": "RAG pour la réponse aux questions temporelles",
+  "rag_stack": "Python, LLaMA, Retrieval-Augmented Generation, NLP",
+  "rag_desc1": "Construction d'un pipeline RAG pour la QA temporelle sur un jeu de données ancré dans Wikidata (6 970 questions, 239 324 faits structurés), combinant LLaMA-3.2-3B-Instruct avec la recherche dense via all-MiniLM-L6-v2 ; la recherche par similarité cosinus a amélioré le F1 Exact Match de 0,10 (zero-shot) à 0,28.",
+  "rag_desc2": "Fine-tuning du générateur avec Q-LoRA sur des paires QA formatées en instructions, combinant RAG + fine-tuning pour l'architecture finale ; évaluation des modes zero-shot, few-shot et RAG-augmenté."
   },
   "contact": {
   "title": "Contactez-moi",

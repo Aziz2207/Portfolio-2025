@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import Navbar from "../navbar/Navbar";
-import CV from "./CV.pdf";
 import img from "../../assets/img.png";
 
 export default function Hero() {
@@ -17,13 +16,6 @@ export default function Hero() {
             <p className="mb-10 leading-relaxed text-lg">
               {t("hero.description")}
             </p>
-            <div className="flex justify-center">
-              <a href={CV} download>
-                <button className="inline-flex text-white bg-purple-500 border-0 py-3 px-8 focus:outline-none hover:bg-purple-600 hover:shadow-[0_0_40px_teal] rounded-full text-lg">
-                  {t("hero.resume")}
-                </button>
-              </a>
-            </div>
           </div>
 
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto">
